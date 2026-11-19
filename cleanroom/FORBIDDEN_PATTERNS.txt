@@ -1,0 +1,13 @@
+# Forbidden brand/resource strings (clean-room gate).
+# Generic font family names are intentionally excluded (they legitimately
+# appear inside third-party bundles such as mermaid).
+Typora
+typora.io
+abnerworks
+Abner Lee
+typora-icon
+typora-file-icon
+typora-root-url
+typora-bg://
+typora://
+VisualElementsManifest

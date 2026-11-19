@@ -1,0 +1,10 @@
+:root {
+  --konai-bg: #fdfdfd; --konai-text: #3f3f3f; --konai-text-muted: #9a9a9a;
+  --konai-border: #eeeeee; --konai-side-bg: #fbfbfb; --konai-side-hover: #f2f2f2;
+  --konai-active: #4a90d9; --konai-code-bg: #f6f6f6; --konai-code-text: #3f3f3f;
+  --konai-quote-border: #e0e0e0; --konai-quote-bg: #fbfbfb; --konai-link: #4a90d9;
+  --konai-font: "Segoe UI", "Microsoft YaHei", system-ui, sans-serif;
+  --konai-mono: "Consolas", "Courier New", monospace;
+  --konai-content-width: 820px; --konai-line-height: 1.75; --konai-font-size: 16px;
+  --konai-titlebar-bg: #fdfdfd;
+}

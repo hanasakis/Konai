@@ -1,0 +1,50 @@
+appId: io.konai.app
+productName: Konai
+copyright: Copyright (c) 2026 Konai Project
+directories:
+  output: dist
+  buildResources: build
+files:
+  - out/**/*
+  - package.json
+  - "!**/*.map"
+  - "!node_modules/**"
+  - "!**/.vite/**"
+  - "node_modules/@pdf-lib/standard-fonts/**"
+  - "node_modules/@pdf-lib/upng/**"
+  - "node_modules/@types/node/**"
+  - "node_modules/argparse/**"
+  - "node_modules/chokidar/**"
+  - "node_modules/docx/**"
+  - "node_modules/entities/**"
+  - "node_modules/fflate/**"
+  - "node_modules/linkify-it/**"
+  - "node_modules/markdown-it/**"
+  - "node_modules/mdurl/**"
+  - "node_modules/nanoid/**"
+  - "node_modules/pako/**"
+  - "node_modules/pdf-lib/**"
+  - "node_modules/punycode.js/**"
+  - "node_modules/readdirp/**"
+  - "node_modules/tslib/**"
+  - "node_modules/uc.micro/**"
+  - "node_modules/undici-types/**"
+win:
+  target:
+    - target: nsis
+      arch: [x64]
+    - target: portable
+      arch: [x64]
+  icon: build/icon.ico
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: Konai
+  installerIcon: build/icon.ico
+  uninstallerIcon: build/icon.ico
+  license: LICENSE
+portable:
+  artifactName: ${productName}-portable-${version}-${arch}.${ext}

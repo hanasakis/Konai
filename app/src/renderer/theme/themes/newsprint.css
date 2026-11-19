@@ -1,0 +1,11 @@
+:root {
+  --konai-bg: #fbfaf7; --konai-text: #2b2b2b; --konai-text-muted: #77705f;
+  --konai-border: #ddd6c8; --konai-side-bg: #f3efe6; --konai-side-hover: #e9e2d3;
+  --konai-active: #8a6d3b; --konai-code-bg: #f1ede2; --konai-code-text: #3a352c;
+  --konai-quote-border: #c9bda3; --konai-quote-bg: #f5f1e7; --konai-link: #8a5a2b;
+  --konai-font: "Georgia", "Times New Roman", "Songti SC", "SimSun", serif;
+  --konai-mono: "Courier New", Consolas, monospace;
+  --konai-content-width: 760px; --konai-line-height: 1.85; --konai-font-size: 16.5px;
+  --konai-titlebar-bg: #f3efe6;
+}
+.konai-doc p, .cm-konai-content p { text-align: justify; }

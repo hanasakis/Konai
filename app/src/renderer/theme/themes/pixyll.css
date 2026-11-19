@@ -1,0 +1,11 @@
+:root {
+  --konai-bg: #ffffff; --konai-text: #333333; --konai-text-muted: #888888;
+  --konai-border: #e8e8e8; --konai-side-bg: #fafafa; --konai-side-hover: #f0f0f0;
+  --konai-active: #268bd2; --konai-code-bg: #f7f7f7; --konai-code-text: #333333;
+  --konai-quote-border: #cccccc; --konai-quote-bg: #fafafa; --konai-link: #268bd2;
+  --konai-font: "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", sans-serif;
+  --konai-mono: "Menlo", "Consolas", monospace;
+  --konai-content-width: 720px; --konai-line-height: 1.65; --konai-font-size: 16px;
+  --konai-titlebar-bg: #ffffff;
+}
+.cm-konai-h1, .cm-konai-h2, .cm-konai-h3, .cm-konai-h4, .cm-konai-h5, .cm-konai-h6 { font-weight: 700; }

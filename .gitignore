@@ -1,0 +1,15 @@
+# Dependencies / build output
+node_modules/
+out/
+dist/
+*.log
+
+# Test artifacts (regenerable)
+export-test.*
+
+# Baseline installer and reverse-engineering workspace (never commit)
+typora-setup-x64.exe
+_work/
+
+# Release staging
+release-payload/

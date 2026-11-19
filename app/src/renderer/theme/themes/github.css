@@ -1,0 +1,10 @@
+:root {
+  --konai-bg: #ffffff; --konai-text: #24292f; --konai-text-muted: #656d76;
+  --konai-border: #d0d7de; --konai-side-bg: #f6f8fa; --konai-side-hover: #eaeef2;
+  --konai-active: #0969da; --konai-code-bg: #f6f8fa; --konai-code-text: #24292f;
+  --konai-quote-border: #d0d7de; --konai-quote-bg: #f6f8fa; --konai-link: #0969da;
+  --konai-font: "Segoe UI", "Microsoft YaHei", system-ui, sans-serif;
+  --konai-mono: "Cascadia Code", Consolas, "Courier New", monospace;
+  --konai-content-width: 880px; --konai-line-height: 1.7; --konai-font-size: 16px;
+  --konai-titlebar-bg: #f6f8fa;
+}
